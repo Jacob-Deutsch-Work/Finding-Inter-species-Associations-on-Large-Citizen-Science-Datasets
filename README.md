@@ -1,10 +1,10 @@
 # Finding-Inter-species-Associations-on-Large-Citizen-Science-Datasets
-To use the code it's pretty simple. Just change DB_FILE_NAME to match the file name of your csv. Then there are other parameters you can mess around with within the first 30 lines of code or so.
+Usage. Set DB_FILE_NAME to the path of your input CSV. Additional user-configurable parameters are defined near the top of the script (approximately lines 1–30); adjust these as needed.
 
-Your csv just needs to follow the format of the csv I've uploaded as an example.
+Input format. The program expects a CSV with the same schema as the provided example file. Please match the column names, order, and data types shown in that example.
 
-You'll also need to install various packages and libraries if you don't already have them. Just run the code, it should barf if you don't have one of them, look up how to install that one, and carry on.
+Dependencies. The code relies on several external Python packages. If a required package is missing, the script will raise an import error indicating which dependency to install. Install the listed package (e.g., via pip install <package>) and re-run.
 
-I would try a smaller dataset at first to see how it does on your machine. The results are truly much better with larger datasets though, so the results you could get on a small dataset won't be that useful.
+Computational notes. Consider testing first on a small subset of the data. However, quality of the results improve with larger datasets; results obtained from very small datasets may not be useful.
 
-Email me at jacobadeutschwork@gmail.com if you have any questions!
+Contact. For questions, feel free to contact me at: jacobadeutschwork@gmail.com
