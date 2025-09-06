@@ -1,3 +1,5 @@
+Paper explaining the statistics and more here: https://arxiv.org/pdf/2508.14259
+
 # Finding-Inter-species-Associations-on-Large-Citizen-Science-Datasets
 Usage. Set DB_FILE_NAME to the path of your input CSV. Additional user-configurable parameters are defined near the top of the script (approximately lines 1–30); adjust these as needed.
 
